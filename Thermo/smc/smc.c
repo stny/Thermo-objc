@@ -2,6 +2,7 @@
  * Apple System Management Control (SMC) Tool 
  * Copyright (C) 2006 devnull 
  * Portions Copyright (C) 2013 Michael Wilber
+ * Portions Copyright (C) 2014 Naoya Sato
  *
  * This program is free software; you can redistribute it and/or
  * modify it under the terms of the GNU General Public License
@@ -381,7 +382,7 @@ kern_return_t SMCReadKey2(UInt32Char_t key, SMCVal_t *val,io_connect_t conn)
     memset(val, 0, sizeof(SMCVal_t));
     
     inputStructure.key = _strtoul(key, 4, 16);
-    sprintf(val->key, key);
+    sprintf(val->key, "%s", key);
     
     result = SMCGetKeyInfo(inputStructure.key, &outputStructure.keyInfo, conn);
     if (result != kIOReturnSuccess)
