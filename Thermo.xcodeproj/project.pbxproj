@@ -1,0 +1,481 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		39385B04196BD747004BECBC /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 39385B03196BD747004BECBC /* Cocoa.framework */; };
+		39385B0E196BD747004BECBC /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 39385B0C196BD747004BECBC /* InfoPlist.strings */; };
+		39385B10196BD747004BECBC /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 39385B0F196BD747004BECBC /* main.m */; };
+		39385B14196BD747004BECBC /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 39385B12196BD747004BECBC /* Credits.rtf */; };
+		39385B17196BD747004BECBC /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 39385B16196BD747004BECBC /* AppDelegate.m */; };
+		39385B1A196BD747004BECBC /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 39385B18196BD747004BECBC /* MainMenu.xib */; };
+		39385B1C196BD747004BECBC /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 39385B1B196BD747004BECBC /* Images.xcassets */; };
+		39385B23196BD747004BECBC /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 39385B22196BD747004BECBC /* XCTest.framework */; };
+		39385B24196BD747004BECBC /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 39385B03196BD747004BECBC /* Cocoa.framework */; };
+		39385B2C196BD747004BECBC /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 39385B2A196BD747004BECBC /* InfoPlist.strings */; };
+		39385B2E196BD747004BECBC /* ThermoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 39385B2D196BD747004BECBC /* ThermoTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		39385B25196BD747004BECBC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 39385AF8196BD747004BECBC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 39385AFF196BD747004BECBC;
+			remoteInfo = Thermo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		39385B00196BD747004BECBC /* Thermo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Thermo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		39385B03196BD747004BECBC /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		39385B06196BD747004BECBC /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		39385B07196BD747004BECBC /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		39385B08196BD747004BECBC /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		39385B0B196BD747004BECBC /* Thermo-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Thermo-Info.plist"; sourceTree = "<group>"; };
+		39385B0D196BD747004BECBC /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		39385B0F196BD747004BECBC /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		39385B11196BD747004BECBC /* Thermo-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Thermo-Prefix.pch"; sourceTree = "<group>"; };
+		39385B13196BD747004BECBC /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
+		39385B15196BD747004BECBC /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		39385B16196BD747004BECBC /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		39385B19196BD747004BECBC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		39385B1B196BD747004BECBC /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		39385B21196BD747004BECBC /* ThermoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ThermoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		39385B22196BD747004BECBC /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		39385B29196BD747004BECBC /* ThermoTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ThermoTests-Info.plist"; sourceTree = "<group>"; };
+		39385B2B196BD747004BECBC /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		39385B2D196BD747004BECBC /* ThermoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ThermoTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		39385AFD196BD747004BECBC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				39385B04196BD747004BECBC /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		39385B1E196BD747004BECBC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				39385B24196BD747004BECBC /* Cocoa.framework in Frameworks */,
+				39385B23196BD747004BECBC /* XCTest.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		39385AF7196BD747004BECBC = {
+			isa = PBXGroup;
+			children = (
+				39385B09196BD747004BECBC /* Thermo */,
+				39385B27196BD747004BECBC /* ThermoTests */,
+				39385B02196BD747004BECBC /* Frameworks */,
+				39385B01196BD747004BECBC /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		39385B01196BD747004BECBC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				39385B00196BD747004BECBC /* Thermo.app */,
+				39385B21196BD747004BECBC /* ThermoTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		39385B02196BD747004BECBC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				39385B03196BD747004BECBC /* Cocoa.framework */,
+				39385B22196BD747004BECBC /* XCTest.framework */,
+				39385B05196BD747004BECBC /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		39385B05196BD747004BECBC /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				39385B06196BD747004BECBC /* AppKit.framework */,
+				39385B07196BD747004BECBC /* CoreData.framework */,
+				39385B08196BD747004BECBC /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		39385B09196BD747004BECBC /* Thermo */ = {
+			isa = PBXGroup;
+			children = (
+				39385B15196BD747004BECBC /* AppDelegate.h */,
+				39385B16196BD747004BECBC /* AppDelegate.m */,
+				39385B18196BD747004BECBC /* MainMenu.xib */,
+				39385B1B196BD747004BECBC /* Images.xcassets */,
+				39385B0A196BD747004BECBC /* Supporting Files */,
+			);
+			path = Thermo;
+			sourceTree = "<group>";
+		};
+		39385B0A196BD747004BECBC /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				39385B0B196BD747004BECBC /* Thermo-Info.plist */,
+				39385B0C196BD747004BECBC /* InfoPlist.strings */,
+				39385B0F196BD747004BECBC /* main.m */,
+				39385B11196BD747004BECBC /* Thermo-Prefix.pch */,
+				39385B12196BD747004BECBC /* Credits.rtf */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		39385B27196BD747004BECBC /* ThermoTests */ = {
+			isa = PBXGroup;
+			children = (
+				39385B2D196BD747004BECBC /* ThermoTests.m */,
+				39385B28196BD747004BECBC /* Supporting Files */,
+			);
+			path = ThermoTests;
+			sourceTree = "<group>";
+		};
+		39385B28196BD747004BECBC /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				39385B29196BD747004BECBC /* ThermoTests-Info.plist */,
+				39385B2A196BD747004BECBC /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		39385AFF196BD747004BECBC /* Thermo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 39385B31196BD747004BECBC /* Build configuration list for PBXNativeTarget "Thermo" */;
+			buildPhases = (
+				39385AFC196BD747004BECBC /* Sources */,
+				39385AFD196BD747004BECBC /* Frameworks */,
+				39385AFE196BD747004BECBC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Thermo;
+			productName = Thermo;
+			productReference = 39385B00196BD747004BECBC /* Thermo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		39385B20196BD747004BECBC /* ThermoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 39385B34196BD747004BECBC /* Build configuration list for PBXNativeTarget "ThermoTests" */;
+			buildPhases = (
+				39385B1D196BD747004BECBC /* Sources */,
+				39385B1E196BD747004BECBC /* Frameworks */,
+				39385B1F196BD747004BECBC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				39385B26196BD747004BECBC /* PBXTargetDependency */,
+			);
+			name = ThermoTests;
+			productName = ThermoTests;
+			productReference = 39385B21196BD747004BECBC /* ThermoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		39385AF8196BD747004BECBC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = "Naoya Sato";
+				TargetAttributes = {
+					39385B20196BD747004BECBC = {
+						TestTargetID = 39385AFF196BD747004BECBC;
+					};
+				};
+			};
+			buildConfigurationList = 39385AFB196BD747004BECBC /* Build configuration list for PBXProject "Thermo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 39385AF7196BD747004BECBC;
+			productRefGroup = 39385B01196BD747004BECBC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				39385AFF196BD747004BECBC /* Thermo */,
+				39385B20196BD747004BECBC /* ThermoTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		39385AFE196BD747004BECBC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				39385B0E196BD747004BECBC /* InfoPlist.strings in Resources */,
+				39385B1C196BD747004BECBC /* Images.xcassets in Resources */,
+				39385B14196BD747004BECBC /* Credits.rtf in Resources */,
+				39385B1A196BD747004BECBC /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		39385B1F196BD747004BECBC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				39385B2C196BD747004BECBC /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		39385AFC196BD747004BECBC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				39385B17196BD747004BECBC /* AppDelegate.m in Sources */,
+				39385B10196BD747004BECBC /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		39385B1D196BD747004BECBC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				39385B2E196BD747004BECBC /* ThermoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		39385B26196BD747004BECBC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 39385AFF196BD747004BECBC /* Thermo */;
+			targetProxy = 39385B25196BD747004BECBC /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		39385B0C196BD747004BECBC /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				39385B0D196BD747004BECBC /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		39385B12196BD747004BECBC /* Credits.rtf */ = {
+			isa = PBXVariantGroup;
+			children = (
+				39385B13196BD747004BECBC /* en */,
+			);
+			name = Credits.rtf;
+			sourceTree = "<group>";
+		};
+		39385B18196BD747004BECBC /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				39385B19196BD747004BECBC /* Base */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+		39385B2A196BD747004BECBC /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				39385B2B196BD747004BECBC /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		39385B2F196BD747004BECBC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		39385B30196BD747004BECBC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		39385B32196BD747004BECBC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Thermo/Thermo-Prefix.pch";
+				INFOPLIST_FILE = "Thermo/Thermo-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		39385B33196BD747004BECBC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Thermo/Thermo-Prefix.pch";
+				INFOPLIST_FILE = "Thermo/Thermo-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		39385B35196BD747004BECBC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Thermo.app/Contents/MacOS/Thermo";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Thermo/Thermo-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "ThermoTests/ThermoTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		39385B36196BD747004BECBC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Thermo.app/Contents/MacOS/Thermo";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Thermo/Thermo-Prefix.pch";
+				INFOPLIST_FILE = "ThermoTests/ThermoTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		39385AFB196BD747004BECBC /* Build configuration list for PBXProject "Thermo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				39385B2F196BD747004BECBC /* Debug */,
+				39385B30196BD747004BECBC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		39385B31196BD747004BECBC /* Build configuration list for PBXNativeTarget "Thermo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				39385B32196BD747004BECBC /* Debug */,
+				39385B33196BD747004BECBC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		39385B34196BD747004BECBC /* Build configuration list for PBXNativeTarget "ThermoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				39385B35196BD747004BECBC /* Debug */,
+				39385B36196BD747004BECBC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 39385AF8196BD747004BECBC /* Project object */;
+}
