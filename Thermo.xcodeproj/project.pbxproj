@@ -18,6 +18,9 @@
 		39385B24196BD747004BECBC /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 39385B03196BD747004BECBC /* Cocoa.framework */; };
 		39385B2C196BD747004BECBC /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 39385B2A196BD747004BECBC /* InfoPlist.strings */; };
 		39385B2E196BD747004BECBC /* ThermoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 39385B2D196BD747004BECBC /* ThermoTests.m */; };
+		39385B3B196BDE5B004BECBC /* LICENSE in Resources */ = {isa = PBXBuildFile; fileRef = 39385B38196BDE5B004BECBC /* LICENSE */; };
+		39385B3C196BDE5B004BECBC /* smc.c in Sources */ = {isa = PBXBuildFile; fileRef = 39385B39196BDE5B004BECBC /* smc.c */; };
+		39385B3F196BE050004BECBC /* SMCManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 39385B3E196BE050004BECBC /* SMCManager.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -50,6 +53,11 @@
 		39385B29196BD747004BECBC /* ThermoTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ThermoTests-Info.plist"; sourceTree = "<group>"; };
 		39385B2B196BD747004BECBC /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		39385B2D196BD747004BECBC /* ThermoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ThermoTests.m; sourceTree = "<group>"; };
+		39385B38196BDE5B004BECBC /* LICENSE */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		39385B39196BDE5B004BECBC /* smc.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = smc.c; sourceTree = "<group>"; };
+		39385B3A196BDE5B004BECBC /* smc.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = smc.h; sourceTree = "<group>"; };
+		39385B3D196BE050004BECBC /* SMCManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SMCManager.h; sourceTree = "<group>"; };
+		39385B3E196BE050004BECBC /* SMCManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SMCManager.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -115,9 +123,12 @@
 		39385B09196BD747004BECBC /* Thermo */ = {
 			isa = PBXGroup;
 			children = (
+				39385B3D196BE050004BECBC /* SMCManager.h */,
+				39385B3E196BE050004BECBC /* SMCManager.m */,
 				39385B15196BD747004BECBC /* AppDelegate.h */,
 				39385B16196BD747004BECBC /* AppDelegate.m */,
 				39385B18196BD747004BECBC /* MainMenu.xib */,
+				39385B37196BDE5B004BECBC /* smc */,
 				39385B1B196BD747004BECBC /* Images.xcassets */,
 				39385B0A196BD747004BECBC /* Supporting Files */,
 			);
@@ -152,6 +163,16 @@
 				39385B2A196BD747004BECBC /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		39385B37196BDE5B004BECBC /* smc */ = {
+			isa = PBXGroup;
+			children = (
+				39385B38196BDE5B004BECBC /* LICENSE */,
+				39385B39196BDE5B004BECBC /* smc.c */,
+				39385B3A196BDE5B004BECBC /* smc.h */,
+			);
+			path = smc;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -234,6 +255,7 @@
 				39385B1C196BD747004BECBC /* Images.xcassets in Resources */,
 				39385B14196BD747004BECBC /* Credits.rtf in Resources */,
 				39385B1A196BD747004BECBC /* MainMenu.xib in Resources */,
+				39385B3B196BDE5B004BECBC /* LICENSE in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -252,6 +274,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				39385B3C196BDE5B004BECBC /* smc.c in Sources */,
+				39385B3F196BE050004BECBC /* SMCManager.m in Sources */,
 				39385B17196BD747004BECBC /* AppDelegate.m in Sources */,
 				39385B10196BD747004BECBC /* main.m in Sources */,
 			);

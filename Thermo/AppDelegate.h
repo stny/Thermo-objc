@@ -2,14 +2,14 @@
 //  AppDelegate.h
 //  Thermo
 //
-//  Created by Sato Naoya on 7/8/14.
+//  Created by Naoya Sato on 7/8/14.
 //  Copyright (c) 2014 Naoya Sato. All rights reserved.
 //
 
 #import <Cocoa/Cocoa.h>
 
-@interface AppDelegate : NSObject <NSApplicationDelegate>
+@interface AppDelegate : NSObject <NSApplicationDelegate, NSMenuDelegate>
 
-@property (assign) IBOutlet NSWindow *window;
+@property (strong, nonatomic) NSStatusItem *statusItem;
 
 @end
