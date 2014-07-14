@@ -9,6 +9,6 @@ Thermo does the following:
 * Provide "Activity Monitor" launcher
 
 
-![sample](http://stny.github.io/Thermo/images/sample.png)
+![sample1](http://cl.ly/image/0O2u2m1p2o2a/sample1.png)
 
-![sample1](http://stny.github.io/Thermo/images/sample1.png)
+![sample2](http://cl.ly/image/0z3W1J1Z2f3p/sample2.png)
